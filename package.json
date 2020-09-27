@@ -1,0 +1,40 @@
+{
+  "name": "ts-base",
+  "version": "1.0.0",
+  "description": "The base of my TS projects",
+  
+  "author": "Jeroeno_Boy",
+  "license": "MIT",
+  
+  "main": "dist/index.js",
+
+
+  "homepage": "https://github.com/JeroenoBoy/TS-BASE#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeroenoBoy/TS-BASE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeroenoBoy/TS-BASE/issues"
+  },
+  
+
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+
+
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "node-ts": "^5.0.8",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+  }
+}
